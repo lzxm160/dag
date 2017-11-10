@@ -2,7 +2,7 @@ package dag
 
 import (
 	"os"
-	"generateDAG/github.com/edsrzf/mmap-go"
+	"github.com/edsrzf/mmap-go"
 	"time"
 	"sync"
 	"math"

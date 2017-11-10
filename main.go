@@ -1,7 +1,7 @@
 package main
 
 import(
-	"generateDAG/dag"
+	"github.com/karachain/dag/DAG"
 	"flag"
 )
 

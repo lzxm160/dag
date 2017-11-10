@@ -1,10 +1,10 @@
 package dag
 
 import (
-	"generateDAG/sha3"
+	"github.com/karachain/dag/sha3"
 	"hash"
 	"sync/atomic"
-	"generateDAG/bitutil"
+	"github.com/karachain/dag/bitutil"
 	"time"
 	"reflect"
 	"unsafe"
