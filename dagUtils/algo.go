@@ -1,4 +1,4 @@
-package dag
+package dagUtils
 
 import (
 	"github.com/karachain/dag/sha3"

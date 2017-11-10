@@ -1,7 +1,7 @@
 package main
 
 import(
-	"github.com/karachain/dag/DAG"
+	"github.com/karachain/dag/dagUtils"
 	"flag"
 )
 
@@ -12,5 +12,5 @@ func main() {
 	flag.Parse()
 
 
-	dag.MakeDataset(*flagBlock, *flagPath)
+	dagUtils.MakeDataset(*flagBlock, *flagPath)
 }
