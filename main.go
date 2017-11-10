@@ -2,20 +2,15 @@ package main
 
 import(
 	"generateDAG/dag"
+	"flag"
 )
 
 func main() {
 
-	var block uint64
-	var dir string
-
-	// enter block number
-	// for default set to 0
-	block = 0
-
-	// enter path to directory to store DAG file
-	dir = "/path/to/dir"
+	flagPath := flag.String("path", "/tmp", "path to store dag file")
+	flagBlock := flag.Uint64("block", 0, "block number")
+	flag.Parse()
 
 
-	dag.MakeDataset(block, dir)
+	dag.MakeDataset(*flagBlock, *flagPath)
 }
