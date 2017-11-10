@@ -2,7 +2,7 @@ package dagUtils
 
 import (
 	"os"
-	"github.com/edsrzf/mmap-go"
+	"edsrzf/mmap-go"
 	"time"
 	"sync"
 	"math"
